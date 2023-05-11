@@ -1,0 +1,86 @@
+
+@media (max-width:600px){
+       .resume{
+      font-size: 10px;      
+    }
+    .avatar{
+       min-width: 100px;
+       max-width: 150px;
+        min-height: 100px;
+        max-height: 150px;
+        
+    }
+  .info{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .avatar{
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        border:solid;
+  }
+  }
+  @media (min-width:600px){
+    .avatar{
+        margin-left: 100px;
+    }
+  body{
+    margin-left: 40px;
+  }
+  h1{
+ font-size: 25px;
+  }
+
+
+.info {
+    display : flex;
+    flex-wrap:notwrap;
+   justify-content:flex-start;
+   gap:10%;
+}
+.info-text {
+    align-self:center;
+    flex: 0,0;
+    max-width: 600px;
+}  
+.avatar{
+    align-self:center;
+    flex: 1,0;
+    width: 285px;
+    border-radius: 50%;
+    border:solid;
+   
+}
+.info-text>h5{
+    font-weight: 500;
+}
+.info-text>h1{
+    letter-spacing:5px;
+}
+.skills{
+    display:flex;
+    gap:5%;
+}
+.personaldata{
+    display: flex;
+}
+a{
+    color:rgb(0, 60, 255);
+    text-decoration: none;
+}
+a:link{
+color:rgb(0, 60, 255)
+      }
+}
+a:visited{
+color: rgb(72, 78, 85);
+}
+a:hover{
+text-decoration:underline;
+;
+}
+a:active{
+    color:rgb(158, 177, 238) ;
+}
